@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <iterator>
-#include "usage.hpp"
+#include "WWF/usage.hpp"
 #include "ingest_options.hpp"
 
 

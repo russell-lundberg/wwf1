@@ -1,5 +1,5 @@
 #include <iostream>
-#include "usage.hpp"
+#include "WWF/usage.hpp"
 
 void ShowUsage() {
 
