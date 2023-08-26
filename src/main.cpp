@@ -14,12 +14,14 @@ int main(int argc, char *argv[])
         std::ostream_iterator<char *>(std::cout, "\n")
     );
 
-    // warn is not enough options entered
+    // warn if not enough options entered
+    /*
     if (argc < 3) {
         std::cout << "WWF: Insufficient paramaters\n";
         ShowUsage();
         exit(0);
     }
+    */
 
     Ingest_Options(argc, argv);
 
